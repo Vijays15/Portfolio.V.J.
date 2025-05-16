@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+/>
+
+</head>
+<body>
+    <header id="nav" class="nav">
+        <div>
+            <img class="logo" src="Vijay1.png" alt="">
+        </div>
+        
+        <ul class="menu">
+            <li class="menus"><a href="#nav">Home</a></li>
+            <li class="menus"><a href="#bio">About</a></li>
+            <li  class="menus"><a href="#contact">Contact</a></li>
+        </ul>
+        
+          <!-- Hamburger icon using Font Awesome -->
+        <button class="hamburger" id="hamburger">
+        <i class="fas fa-bars"></i>
+        </button>
+
+    </header>
+
+    <section id="bio" class="bio">
+        <div id="left" class="left">
+            <div>Hi, My Name is <span id="purple">Vijay</span> and I'm a </div><span id="element"></span>
+            <p>I'm B.Tech third-year student with a passion for coding and technology. Proficient in web development, Java, and DSA. Driven by problem-solving and continuous learning, currently exploring backend systems and Data Science. Looking to contribute to innovative tech solutions and grow in a collaborative environment.</p>
+
+        </div>
+        <div id="right" class="right">
+            <img class="mypic" src="WhatsApp Image Vijay2.png" alt="">
+        </div>
+    </section>
+
+    <section>
+        <h1 class="project-heading">Projects</h1>
+    <div id="projects" class="projects">
+        <div id="project-box" class="project-box"><a href="https://github.com/Vijays15/weather-app">The Weather App is a responsive web application built using HTML, CSS, and JavaScript. It allows users to search for any city and get real-time weather information using a public weather API (like OpenWeatherMap).The app displays key weather details such as temperature, weather condition, humidity, wind speed, and a relevant weather icon.</a></div>
+
+        <div id="project-box" class="project-box"><a href="https://github.com/Vijays15/arithmetic_Calculator">The Arithmetic Calculator is a simple, interactive web application built using HTML, CSS, and JavaScript. It performs basic arithmetic operations like addition, subtraction, multiplication, and division. The calculator provides a clean and responsive user interface, designed for ease of use on both desktop and mobile devices.</a></div> 
+
+        <div id="" class="project-box"><a href="https://github.com/Vijays15/Portfolio">The Personal Portfolio Website is a responsive and modern web application designed using HTML, CSS, and JavaScript. It showcases your skills, projects, experience, and contact information in a clean and visually appealing layout. This website serves as a digital resume and personal brand identity for developers, designers, and professionals.</a></div>
+
+        <div class="project-box"><a href="https://github.com/Vijays15/_Image_Gallery">The Image Gallery is a clean, responsive web application developed using HTML, CSS, and JavaScript. It allows users to browse a collection of images presented in a grid layout. The gallery includes features like image previews, lightbox effects, and filter/search functionality to enhance user interaction and visual appeal.</a></div>
+    </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills" id="skills">
+    <h2 class="skills-heading">My Skills</h2>
+    <div class="skills-container">
+        <div class="skill-card frontend">
+        <h3>Frontend Development</h3>
+        <p>JavaScript, React.js, HTML, CSS</p>
+        </div>
+        <div class="skill-card backend">
+        <h3>Java Development</h3>
+        <p>Java, Object-Oriented Programming, Spring (basic)</p>
+        </div>
+        <div class="skill-card dsa">
+        <h3>Data Structures & Algorithms</h3>
+        <p>Problem-solving in Java, LeetCode/GFG</p>
+        </div>
+    </div>
+    </section>
+
+
+    <section id="contact" class="contact">
+        <h1>Contact Me</h1>
+        <form class="contact-form" action="#" method="post">
+            <input type="text" name="name" placeholder="Your Name" required />
+            <input type="email" name="email" placeholder="Your Email" required />
+            <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer class="footer">
+  <div class="footer-container">
+    <div class="footer-left">
+      <img src="Vijay1.png" alt="Vijay Logo" class="footer-logo" />
+    </div>
+    <div class="footer-right">
+      <a href="https://www.facebook.com/share/1BLJAEcjDu/" target="_blank" aria-label="Facebook" class="social-icon">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+      <a href="https://www.linkedin.com/in/vijay-shakya-a1664b287/" target="_blank" aria-label="LinkedIn" class="social-icon">
+        <i class="fab fa-linkedin-in"></i>
+      </a>
+      <a href="https://github.com/Vijays15" target="_blank" aria-label="GitHub" class="social-icon">
+        <i class="fab fa-github"></i>
+      </a>
+    </div>
+  </div>
+</footer>
+
+
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+<script src="https://unpkg.com/scrollreveal"></script>
+<script src="script.js"></script>
+</body>
+</html>
